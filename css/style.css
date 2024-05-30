@@ -217,6 +217,7 @@ html {
     height: 100vh;
     box-sizing: border-box;
     width: 100%;
+    display: block;
 }
 
 .collab {
