@@ -55,7 +55,7 @@ function mqRotate(mqr) {
             mqr[j].ary.push(z);
         }
     }
-    mqr[0].TO = setTimeout("mqRotate(mqr)", 5);
+    mqr[0].TO = setTimeout("mqRotate(mqr)", 9);
 }
 
 
