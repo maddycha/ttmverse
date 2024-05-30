@@ -369,8 +369,7 @@ display: none;
         width: 100%;
         text-align: center;
         overflow-y: hidden;
-
-
+        overscroll-behavior: none;
     }
 
     #mobile-only .logo{
