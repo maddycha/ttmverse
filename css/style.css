@@ -105,6 +105,10 @@ a {
 
 }
 
+.member{
+    border-right: solid 1px white;
+}
+
 .member:last-of-type {
     border-right: 1px transparent solid;
 }
@@ -116,8 +120,17 @@ a {
 }
 
 .member-img {
-    width: 100%;
     box-sizing: border-box;
+    width: 60%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.member-img-container{
+    display: flex;
+    justify-content: center;
+    max-height: 70%;
     border-bottom: solid 1px currentColor;
 }
 
